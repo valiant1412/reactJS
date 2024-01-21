@@ -1,0 +1,56 @@
+.About {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 5% 5%;
+}
+
+.Infor {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Avatar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.avatar-image {
+    max-width: 60%;
+
+    width: auto;
+    height: auto;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 38%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-contact {
+    color: white;
+    border-radius: 4px;
+    background: #E95D35;
+    padding: 12px;
+    gap: 10px;
+    border: none;
+}
+
+.btn>a {
+    color: #E95D35;
+}
