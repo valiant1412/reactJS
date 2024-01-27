@@ -1,0 +1,39 @@
+.information-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 3px dashed black;
+    padding-bottom: 20px;
+}
+
+.Avatar-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.avatar {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+}
+
+.detail-container {
+    width: 40%;
+}
+
+.experience-detail {
+    margin-bottom: 10px;
+}
+
+h2,
+p {
+    margin: 0 auto;
+}

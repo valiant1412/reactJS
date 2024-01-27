@@ -10,7 +10,6 @@ export function About(){
     
     return(
         <div className="About">
-            
             <div className="Infor">
                 <h1>Hi Everyone. This is Nguyen Minh Duc!</h1><br></br>
             {Object.entries(background_information).map(([key,value])=>
