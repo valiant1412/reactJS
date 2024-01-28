@@ -9,24 +9,25 @@ export function About(){
     };
     
     return(
-        <div className="About">
-            <div className="Infor">
-                <h1>Hi Everyone. This is Nguyen Minh Duc!</h1><br></br>
-            {Object.entries(background_information).map(([key,value])=>
-            
-                <div>
-                    <p><b>{key}</b>: {value}</p>
-                    
+        
+            <div className="About-container">
+                <div className = "Information-container">
+                    <h1>Hi everyone, this is me!</h1>
+                     {Object.entries(background_information).map(([key,value])=>(
+                        <div className ="detail-element"key={key}>
+                            <strong>{key}</strong>: {value}
+                        </div>
+                     ))}
+                     <div className="btn-container">
+                        <button className = "button"> Contact me</button>
+                        <a href="">Check my CV</a>
+                     </div>
                 </div>
-            )}
-            <div className="btn">
-                <button className="btn-contact"><b>Contact me</b></button>
-                <a href="/">Check my CV</a>
+                <div className = "Avatar-container">
+                <img src={MyImage} className="avatar-image"alt = "avatar"/>
+                </div>
             </div>
-            </div>
-            <div className="Avatar">
-                <img className="avatar-image"src={MyImage} alt="avatar"/>
-            </div>
-        </div>
+            
+        
     )
 }

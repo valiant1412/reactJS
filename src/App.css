@@ -4,9 +4,9 @@ body {}
 
 .header {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: #232323;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: rgba(19, 19, 19, 0.85);
   color: white;
 }
 

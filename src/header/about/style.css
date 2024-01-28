@@ -1,56 +1,56 @@
-.About {
-    width: 100%;
+.About-container {
     display: flex;
     flex-direction: row;
-    box-sizing: border-box;
-    padding: 5% 5%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
-.Infor {
+.Information-container {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.Avatar {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    margin-right: 10%;
 
 }
 
-h1 {
-    margin: 0;
-    font-size: 3em;
+.Avatar-container {
+    width: 40%;
 }
 
 .avatar-image {
-    max-width: 60%;
-
+    max-height: 60vh;
+    /* Set maximum height to 50% of the viewport height */
     width: auto;
-    height: auto;
+    /* Allow the width to adjust proportionally */
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 8vh;
 
 }
 
-.btn {
+.detail-element {
+    font-size: 3vh;
+    /* Set font size as a percentage of the viewport height */
+    margin: 5px 0;
+}
+
+.btn-container {
+    margin-top: 3vh;
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    width: 38%;
     justify-content: space-between;
     align-items: center;
 }
 
-.btn-contact {
+.button {
     color: white;
-    border-radius: 4px;
-    background: #E95D35;
-    padding: 12px;
-    gap: 10px;
+    background-color: #E95D35;
     border: none;
+    padding: 2vh;
+    border-radius: 10px;
 }
 
-.btn>a {
+a {
     color: #E95D35;
 }
